@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Práctica 06</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="contenedor">
+        <h3>Práctica 06: Envio de parámetros por GET usando form</h3>
+        <form action="recibe_params_get.php" method="GET">
+            <input type="text" id="txtX" name="x" />
+            <input type="submit" value="Enviar Parámetro" />
+        </form>
+        <p><a href="recibe_params_get.php?x=Hola+Mundo&y=Mundo">Enviar Hola Mundo</a></p>
+    </div>
+</body>
+</html>
